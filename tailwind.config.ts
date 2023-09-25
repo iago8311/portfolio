@@ -7,12 +7,24 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundImage: {
+      'img_bg_hero':"url('../assets/img.jpg')",
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+        colors: {
+          'primary-blue':'#106EB0',
+          'primary-orage':'#EC7000',
+          'primary-gray':'#33303E',
+          'second-gray':'#4E4B59',
+          'gray-phone':'#F4F4F4',
+          'text-gray':'#7A7786',
+          'primary-black':'#0F0F0F',
+          'primary-green':'#00FF00',
+          'second-green':'#7CFC00'
+
+        }
+
+
     },
   },
   plugins: [],
